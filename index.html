@@ -39,9 +39,100 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="/images/logo_coffeeshop_dark.svg"
+            alt="imagen de fondo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="" class="nav__link">recetas</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">reservas de mesa</a>
+            </li>
+            <li>
+              <a href="" class="nav__link">contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">cafe de especialidad </span>
+          en triple peaks
+        </h1>
+        <p class="header__description">
+          te damos la bienvenida a nuestra zona de estudio! aqui tenemos cafe
+          para darte energia y motivar tu creatividad.
+        </p>
+        <img
+          src="/images/inside_coffee_shop.png"
+          alt="imagen principal de header"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div>
+            <div class="header__paragraph">horarios</div>
+
+            <div class="header__paragraph">
+              lunes a viernes (de 10:00h 19:00h)
+            </div>
+            <div class="header__paragraph">
+              sabados y domingos (de 11:00h a 18:00h)
+            </div>
+          </div>
+          <p class="header__paragraph">
+            avenida del exito 200 ciudad triple peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipe"></section>
+        <section class="recipe">
+          <h2 class="recipes__title">recetas</h2>
+          <p class="recipes__subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks.
+          </p>
+          <div class="recipes__videos">
+            <li class="recipes__video-item">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=iUPBfpHI5ZNcM8M7"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                class="recipes__iframe"
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <p>recetas en aeropress</p>
+                <p>~5 min</p>
+              </div>
+            </li>
+            <li class="recipes__video-item">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=OYdzCyXqRafStZHt"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                class="recipes__iframe"
+              >
+              </iframe>
+              <div class="recipes__video-caption">
+                <p>recetas en cafetera francesa</p>
+                <p>~15 min</p>
+              </div>
+            </li>
+          </div>
+        </section>
         <section class="reservation"></section>
       </main>
       <footer class="footer"></footer>
