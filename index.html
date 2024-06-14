@@ -138,21 +138,29 @@
                 type="text"
                 class="form__imput"
                 id="name"
+                name="name"
                 placeholder="nombre"
                 required
               />
-              <label for="quantity" class="form__label"
+              <label for="diners" class="form__label"
                 >numero de comensales*</label
               >
               <input
                 type="number"
                 class="form__imput"
-                id="quantity"
+                id="diners"
+                name="diners"
                 placeholder="1-8"
                 required
               />
               <label for="date" class="form__label">fecha y hora*</label>
-              <input type="datetime-local" class="form__imput" id="date" />
+              <input
+                type="datetime-local"
+                class="form__imput form__input-date"
+                name="date"
+                id="date"
+                required
+              />
               <label for="email" class="form__label"
                 >tu correo electronico*</label
               >
@@ -160,7 +168,9 @@
                 type="email"
                 class="form__imput"
                 id="email"
+                name="email"
                 placeholder="email@email.com"
+                required
               />
             </fieldset>
             <fieldset class="form__fieldset">
@@ -171,10 +181,11 @@
                 <input
                   type="checkbox"
                   class="form__checkbox"
-                  id=" terms"
+                  id="terms"
+                  name="terms"
                   required
                 />
-                <p>acepto terminos de uso</p>
+                acepto terminos de uso
               </label>
             </fieldset>
           </form>
