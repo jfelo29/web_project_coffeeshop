@@ -276,10 +276,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  background-color: #2f80ed;s
-
+  background-color: #2f80ed;
 }
-.form__botton: hover {
+.form__botton:hover {
   opacity: 70%;
 }
 .form__checkbox {
