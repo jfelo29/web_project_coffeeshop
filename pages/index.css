@@ -269,7 +269,6 @@
 
 .form__botton {
   max-width: 385px;
-
   height: 60px;
   width: 100%;
   font-family: Inter;
@@ -278,11 +277,9 @@
   font-size: 16px;
   line-height: 20px;
   background-color: #2f80ed;s
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 }
-.form__botton:hover {
+.form__botton: hover {
   opacity: 70%;
 }
 .form__checkbox {
