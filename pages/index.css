@@ -285,7 +285,7 @@
   border-radius: 2px;
   padding: 32px;
 }
-.form__label_align-check {
+.form__label-checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
