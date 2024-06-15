@@ -1,4 +1,4 @@
-.content {
+.recipes {
   width: 100%;
 
   background-color: #0a2850;
@@ -7,6 +7,7 @@
   background-position: center;
   background-image: url(../images/background_recipes.svg);
 }
+
 .recipe {
   width: 100%;
 }
