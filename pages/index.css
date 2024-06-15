@@ -207,7 +207,8 @@
 }
 .reservation__title {
   margin: 0 auto;
-  margin-bottom: auto;
+  margin-bottom: 0;
+
   padding-bottom: 80px;
   font-family: Inter;
   font-style: normal;
@@ -215,7 +216,7 @@
   font-size: 44px;
   line-height: 52px;
 }
-.reservation___form {
+.reservation__form {
   padding-bottom: 120px;
 }
 .form {
