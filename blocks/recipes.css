@@ -8,9 +8,6 @@
   background-image: url(../images/background_recipes.svg);
 }
 
-.recipe {
-  width: 100%;
-}
 .recipes__title {
   display: flex;
   max-width: 580px;
